@@ -153,6 +153,9 @@
   line-height: 30px;
   margin-bottom: 48px; /* 166.667% */
 }
+/* .midnight-party-img img {
+  background: transparent;
+} */
 #midnight-party-section
   .midnight-party-bgimage-container
   .midnight-party-text
@@ -413,4 +416,65 @@
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+}
+
+/* footer section */
+#footer-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  height: 609px;
+  background-color: #070211;
+}
+.footer-container {
+  width: 80%;
+}
+.footer-text h3 {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+#footer-section .footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.left-text {
+  max-width: 375px;
+}
+.footer-copyright h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.footer-icon {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
